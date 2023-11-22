@@ -349,7 +349,9 @@
         display: grid;
         grid-template-columns: 1fr;
         padding-top: 2rem;
-        grid-gap:1rem
+        grid-gap:1rem;
+        align-items: center;
+        justify-content: center;
     }
 
     #testimonials i{
