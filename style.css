@@ -683,9 +683,7 @@ font-weight: 700;
     grid-template-columns: 0.9fr 1.1fr;
 }
 
-#contact .contact-grid .contact-grid-1{
 
-}
 
 #contact h1{
 
@@ -761,6 +759,17 @@ font-weight: 700;
     color: white;
     background: var(--txt-1);
     font-size: 18px;
+}
+
+#contact .btn:active{
+    background:rgb(201, 54, 0);
+    height: 60px;
+    width: 500px;
+    display: block;
+    padding:20px 41px;
+    font-size: 16px;
+    border: none;
+
 }
 
 /*Playcards*/
