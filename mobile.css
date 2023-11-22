@@ -1,0 +1,29 @@
+@media(max-width:600px){
+    .container{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--txt-3);
+        transition: all 0.2s ease;
+
+     
+    }
+
+    .menu li{margin-top: 40px;}
+    .menu li a{padding: 10px;}
+    .open-menu, .close-menu {display:block;}
+    #check:checked~ .menu{right:0%;}
+
+}
