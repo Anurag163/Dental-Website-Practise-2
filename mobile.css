@@ -5,6 +5,13 @@
         overflow: hidden;
     }
 
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
     .menu{
         flex-direction: column;
         align-items: center;
@@ -238,7 +245,7 @@
 
     #services-1{
         padding-top: 4rem;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2rem;
     }
 
     #services-1 img{
@@ -251,6 +258,7 @@
     #services-1 .services-1-grid{
         display: grid;
         grid-template-columns: 1fr;
+        
     }
 
     #services-1 .services-1-grid .services-1-grid-1{
@@ -274,7 +282,55 @@
         line-height: 1.5rem;
     }
 
- 
+    /*Services-2*/
+
+    #services-2 {
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #services-2 .services-2-grid{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        justify-content: space-between;
+    }
+
+    #services-2 img{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+
+        border: none;
+        margin-left: 0;
+        border-top-left-radius:0rem;
+        border-bottom-left-radius: 0rem;
+        
+
+    }
+
+    #services-2 .services-2-grid .services-2-grid-1{
+        font-size:18px;
+        letter-spacing:2px;
+        padding-bottom: 1.25rem;
+        padding-left: 0rem;
+      
+
+        }
+        
+    #services-2 .services-2-grid .services-2-grid-1 span{
+        font-size: 40px;
+        letter-spacing: 1.5px;
+
+        }
+        
+    .services-2-text-container p:nth-child(2){
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        line-height: 1.5rem;
+        }
+
 
 
 }

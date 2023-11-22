@@ -452,7 +452,7 @@ font-weight: 700;
 }
 #services-2 .services-2-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     justify-content: space-between;
 }
 
